@@ -1,0 +1,32 @@
+body {
+	font-family: Quicksand, sans-serif;
+	margin: 0;
+}
+
+#pageLogo a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: rgb(194, 219, 145);
+	font-size: 50px;
+	font-family: Oleo script, sans-serif;
+	text-shadow: 1px 1px 2px rgb(82, 87, 68);
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 60px;
+}
+
+header ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	display: flex;
+}
+
+header li a {
+	margin-right: 20px;
+	text-decoration: none;
+}
