@@ -1,0 +1,55 @@
+#hero {
+	background-image: url(https://raw.githubusercontent.com/academind/100-days-of-web-development/07-html-css-layouts-position/extra-files/ocean.jpg);
+	height: 800px;
+	/* position: relative;
+	z-index: -1; */
+	/* bottom: 200px; */
+	background-position: center;
+	background-size: cover;
+}
+
+#herocontent {
+	background-color: rgba(32, 32, 32, 0.8);
+	box-shadow: 2px 4px 8px rgb(46, 44, 44);
+	border-radius: 8px;
+	text-align: center;
+	height: 200px;
+	width: 900px;
+	padding: 50px 0;
+	margin: 0 auto;
+	position: relative;
+	top: 200px;
+}
+
+#herocontent h1,
+#herocontent p {
+	color: white;
+}
+
+#herocontent h1 {
+	font-family: "Raleway", sans-serif;
+	font-size: 50px;
+	margin: 0;
+	font-weight: bold;
+}
+
+#herocontent p {
+	font-size: 24px;
+	font-weight: 300;
+	margin-bottom: 32px;
+}
+
+#herocontent a {
+	background: yellow;
+	padding: 10px 12px;
+	border-radius: 8px;
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+	box-shadow: 2px 4px 8px rgb(97, 97, 5);
+}
+
+#herocontent a:hover {
+	background-color: rgb(231, 231, 14);
+}
