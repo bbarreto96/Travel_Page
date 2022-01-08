@@ -16,6 +16,9 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	padding: 15px 60px;
+	position: absolute;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 header ul {
@@ -29,4 +32,15 @@ header ul {
 header li a {
 	margin-right: 20px;
 	text-decoration: none;
+	color: rgb(233, 233, 60);
+	font-weight: 500;
+	font-size: 20px;
+	padding: 12px;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
+}
+
+header li a:hover {
+	background-color: rgb(231, 231, 14);
+	color: rgb(77, 77, 77);
+	border-radius: 8px;
 }

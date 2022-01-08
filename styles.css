@@ -53,3 +53,22 @@
 #herocontent a:hover {
 	background-color: rgb(231, 231, 14);
 }
+#highlights h2 {
+	text-align: center;
+}
+#highlights ul {
+	display: flex;
+}
+
+ul .destination {
+	list-style: none;
+	text-align: center;
+}
+
+.destination img {
+	height: 200px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0px 20px;
+	object-fit: cover;
+}
